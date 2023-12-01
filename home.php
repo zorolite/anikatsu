@@ -120,8 +120,7 @@ require('./_config.php');
                             <div class="clearfix"></div>
                         </div>
                         <div class="tab-content">
-                            <div class="block_area-content block_area-list film_list film_list-grid">
-                                <div class="film_list-wrap">
+                            <div class="block_area-conten">
 
                                     <?php 
                                 $json = file_get_contents("$api/recent-release?type=1&page=1");
